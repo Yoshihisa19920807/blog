@@ -10,8 +10,7 @@ export default (state = [], action) => {
 
   // good
   // return state + action;
-  
-  
+
   // if (action.type === 'FETCH_POSTS') {
   //   return action.payload;
   // }
@@ -22,8 +21,7 @@ export default (state = [], action) => {
     case 'FETCH_POSTS':
       return action.payload;
     default:
-      return state; 
+      return state;
   }
-
 };
 

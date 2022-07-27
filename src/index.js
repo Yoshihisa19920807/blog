@@ -7,6 +7,7 @@ import thunk from  'redux-thunk';
 import App from './components/App';
 import reducers from './reducers';
 
+// all the dispatches are sent to redux thunk first
 const store = createStore(reducers, applyMiddleware(thunk));
 
 ReactDOM.render(
